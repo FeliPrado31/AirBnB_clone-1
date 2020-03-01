@@ -3,7 +3,7 @@
     height: 70px;
     width: 100%;
     border: 1px #DDD solid;
-    display: inline-block;
+    position: relative;
     border-radius: 4px;
 }
 
@@ -27,8 +27,9 @@
 .filters .amenities {
     display: inline-block;
     height: 100%;
-    position: relative;
     width: 25%;
+    padding-left: 30px;
+    position: relative;
 }
 
 .locations {
@@ -37,6 +38,7 @@
 
 .filters h3 {
     font-weight: 600;
+    margin-bottom: -15px;
 }
 
 .filters h4 {
@@ -51,7 +53,9 @@
     border-radius: 4px;
     width: 100%;
     position: absolute;
-    padding: 15px;
+    left: 0;
+    padding-left: 15px;
+    padding-bottom: 40px;
 }
 
 .filters .popover h2 {
